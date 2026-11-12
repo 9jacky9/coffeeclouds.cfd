@@ -46,7 +46,7 @@
       <section style="font-size:15px; line-height:1.85; color:#d1d5db;">
         
         <h2 style="font-size:19px; color:#fff; margin:24px 0 10px; font-weight:700;">一、远程桌面协议对网络丢包与RTT的高敏感性</h2>
-        <p>远程桌面协议(如Microsoft RDP、AnyDesk及RustDesk)属于典型的强交互型网络应用，对网络往返时延(RTT)与瞬时丢包极其敏感。一旦往返延迟超过120ms或出现超过1%的丢包率，远程鼠标光标的拖拽便会出现明显粘滞感，键盘敲击亦会产生双击误触或按键吞没。许多出海技术团队在评估高效的<a href="https://dajichang.mom/" target="_blank" style="color:#fbbf24; font-weight:700; text-decoration:underline;">海外网络加速方案</a>时，重点聚焦于链路的往返时延抖动(RTT Jitter)收敛度，期望借助骨干专网的物理低延迟将远程桌面响应体验提升至与本地无异的水平。</p>
+        <p>远程桌面协议(如Microsoft RDP、AnyDesk及RustDesk)属于典型的强交互型网络应用，对网络往返时延(RTT)与瞬时丢包极其敏感。一旦往返延迟超过120ms或出现超过1%的丢包率，远程鼠标光标的拖拽便会出现明显粘滞感，键盘敲击亦会产生双击误触或按键吞没。许多出海技术团队在评估高效的<a href="https://dajichang.mom/" target="_blank" style="color:#fbbf24; font-weight:700; text-decoration:underline;">海外远程加速链路</a>时，重点聚焦于链路的往返时延抖动(RTT Jitter)收敛度，期望借助骨干专网的物理低延迟将远程桌面响应体验提升至与本地无异的水平。</p>
         <h2 style="font-size:19px; color:#fff; margin:24px 0 10px; font-weight:700;">二、启用 RDP UDP 传输模式与自适应码率调谐</h2>
         <p>微软现代RDP协议已全面支持基于UDP的远程桌面数据传输通道。相比传统的TCP协议，UDP传输消除了队头阻塞(Head-of-Line Blocking)问题，即使遇到微小的偶发网络抖动，也不会导致整个桌面的交互画面发生瞬间冻结。在组策略中启用基于UDP传输的远程桌面连接，并开启自适应图像压缩算法，能在保障文本字符边缘锐利清晰的同时，将操作延迟进一步削减30%以上。</p>
         <h2 style="font-size:19px; color:#fff; margin:24px 0 10px; font-weight:700;">三、音频重定向与色彩位深度的合理平衡</h2>
